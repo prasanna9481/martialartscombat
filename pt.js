@@ -4,7 +4,7 @@ var myimg = document.createElement("img");
 myimg.onload = () => {
   r.drawImage(myimg, 0, 0, 1500, 650);
 };
-myimg.src = "/martial/background.jpg";
+myimg.src = "/Images/background.jpg";
 
 //to load multiple images//
 let loadimage = (src, callback) => {
@@ -14,7 +14,7 @@ let loadimage = (src, callback) => {
 };
 //to set general path//
 let imgpath = (picno, action) => {
-  return "/martial/" + action + "/" + picno + ".png";
+  return "Images/" + action + "/" + picno + ".png";
 };
 let object = {
   backward: [1, 2, 3, 4, 5, 6],
