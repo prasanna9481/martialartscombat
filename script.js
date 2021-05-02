@@ -14,7 +14,7 @@ let loadimage = (src, callback) => {
 };
 //to set general path//
 let imgpath = (picno, action) => {
-  return "Images/" + action + "/" + picno + ".png";
+  return "/Images/" + action + "/" + picno + ".png";
 };
 let object = {
   backward: [1, 2, 3, 4, 5, 6],
